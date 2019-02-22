@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="overflowTip" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/yellow</item>
+    </style>
 </resources>

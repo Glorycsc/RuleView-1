@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zkk.activity.TestActivity">
+
+    <com.zkk.activity.VerticalRulerView
+        android:id="@+id/rulerView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:bgColor="#fff"
+        app:calibrationColor="#ff6763"
+        app:calibrationWidth="1dp"
+        app:maxValue="200"
+        app:minValue="20"
+        app:per="0.1"
+        app:textColor="#ff6763"
+        app:value="40" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="1.5dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/llShow"
+        android:background="#ff6763" />
+
+    <LinearLayout
+        android:id="@+id/llShow"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/operation_bg_ruler_value"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="40.0"
+            android:textColor="#fff"
+            android:textSize="42sp" />
+
+        <TextView
+            android:id="@+id/solid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="kg"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </LinearLayout>
+</RelativeLayout>

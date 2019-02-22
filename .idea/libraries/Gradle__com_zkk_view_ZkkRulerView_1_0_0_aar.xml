@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.zkk.view:ZkkRulerView:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://F:/gradle-3.3/caches/transforms-1/files-1.1/ZkkRulerView-1.0.0.aar/b7a2cdbf2cef3123d9cef278a390f40a/jars/classes.jar!/" />
+      <root url="file://F:/gradle-3.3/caches/transforms-1/files-1.1/ZkkRulerView-1.0.0.aar/b7a2cdbf2cef3123d9cef278a390f40a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/gradle-3.3/caches/modules-2/files-2.1/com.zkk.view/ZkkRulerView/1.0.0/6bcc0d3e7299cecaa963f1e901e23c456875d4f9/ZkkRulerView-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

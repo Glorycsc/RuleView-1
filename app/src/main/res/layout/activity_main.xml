@@ -139,5 +139,6 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/user_info_ruler_weight"/>
         </RelativeLayout>
+
     </LinearLayout>
 </LinearLayout>
